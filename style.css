@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.container{
+    border: 2px solid #333;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#first_section{
+    border-top: 2px solid #333;
+    width: 60%;
+}
+
+#first_section h2{
+    padding: 10px;
+}
+
+#first_section p, 
+#second_section h2,
+#third_section h2, 
+#fourth_section h2, 
+#fifth_section h3{
+    color: seagreen;
+    font-weight: 600;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#third_section ul li,
+#fourth_section ul li{
+    font-size: 14px;
+    padding-right: 2rem;
+}
+
+
+.school_name, .company{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+#fifth_section a{
+
+    color: #333;
+}
